@@ -1,0 +1,26 @@
+# Start Compositor
+picom --config ~/.config/compton.conf &
+
+# Start Polybar
+polybar -r -config ~/.config/polybar/config.ini top &
+
+# Start Tint2
+tint2 &
+
+# Set background
+(sleep 1; nitrogen --restore) &
+
+# Volume applet
+
+
+# Dunst
+dunst &
+
+# Clipmenu
+clipmenud &
+
+# Power management applet
+
+
+# Network manager applet
+nm-applet &

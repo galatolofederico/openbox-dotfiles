@@ -1,0 +1,4 @@
+#!/bin/bash
+
+export ETHERNET_DEVICE=eno1
+export WIRELESS_DEVICE=wlp9s0u2
