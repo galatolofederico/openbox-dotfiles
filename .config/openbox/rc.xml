@@ -392,10 +392,7 @@
     </keybind>
     <keybind key="S-Print">
       <action name="Execute">
-        <command>bash -c "escrotum ~/Pictures/Screenshots/$(date +%s).png"</command>
-      </action>
-      <action name="Execute">
-        <command>notify-send "Screenshot saved"</command>
+        <command>bash -c "escrotum ~/Pictures/Screenshots/$(date +%s).png ; notify-send "Screenshot saved""</command>
       </action>
     </keybind>
     <keybind key="Print">
