@@ -1,5 +1,5 @@
 # Start Compositor
-picom --config ~/.config/compton.conf &
+picom --config ~/.config/picom.conf &
 
 # Start Polybar
 polybar -r -config ~/.config/polybar/config.ini top &

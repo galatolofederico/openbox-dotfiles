@@ -6,7 +6,7 @@ tint2
 compton
 obmenu-generator
 polybar
-esctrotum
+escrotum
 j4-dmenu-desktop
 dunst
 nerd-fonts-complete
@@ -14,4 +14,4 @@ nerd-fonts-complete
 Arch:
 
 sudo pacman -S openbox obconf nitrogen tint2 compton dunst
-yay -S obmenu obmenu-generator polybar esctrotum j4-dmenu-desktop nerd-fonts-complete
+yay -S obmenu obmenu-generator polybar escrotum j4-dmenu-desktop nerd-fonts-complete
